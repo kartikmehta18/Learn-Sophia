@@ -1,0 +1,2036 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>SophiaLearn</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Sophia , SophiaLearn">
+
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="436">
+<meta property="og:image:height" content="228">
+<meta property="og:description" content="W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.">
+<link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#04aa6d">
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="theme-color" content="#ffffff">
+<link rel="preload" href="/lib/fonts/fontawesome.woff2?14663396" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-code-pro-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/roboto-mono-v13-latin-500.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-sans-pro-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-sans-pro-v14-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/lib/fonts/SourceSansPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/lib/fonts/freckle-face-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="stylesheet" href="lib/topnav/main_v%3D1.0.30.css">
+<link rel="stylesheet" href="lib/w3schools32_v%3D1.0.1.css">
+
+
+<script async data-cfasync="false" src="https://cdn.snigelweb.com/adengine/w3schools.com/loader.js" type="text/javascript"></script>
+<script src="lib/common-deps_v%3D1.0.4.js"></script>
+<script src="lib/user-session_v%3D1.0.34.js"></script>
+<script src="lib/my-learning_v%3D1.0.23.js"></script>
+
+
+<style>
+/* Customize w3schools23.css */
+#nav_tutorials,
+#nav_references,
+#nav_exercises {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 769px) {
+  .w3-bar-block .w3-button {
+    padding: 0 16px !important;
+  }
+}
+#belowtopnav {
+ padding:0;
+}
+
+
+#main {
+  padding: 0;
+  border-right: none;
+  width:100%;
+  margin-top:88px; 
+}
+
+#mypagediv2,#user-profile-bottom-wrapper {
+  height:0px; overflow:hidden;display:block;
+}
+#footer {
+  padding:0;
+}
+
+.herosection {
+  background-image:url('images/lynx_in_space.png'), url('images/background_in_space.gif');
+  background-repeat: no-repeat, repeat ;
+  background-position: 90% 60%, center center /*left  top*/;
+  padding-top:90px;
+  padding-bottom:90px;
+  /* height: 100px; */
+}
+
+@media screen and (max-width: 992px) {
+  .herosection {
+    background-image:url('images/background_in_space.gif');
+    background-position:center center /*left top*/;
+  }
+}
+
+
+/* Customize W3.CSS */
+.w3-col.l4 .w3-card-2 {
+  padding: 15px 10px;
+  height: 260px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 2px 0 -20px 0 !important;
+}
+
+.learn h1  {
+  margin: 10px 0 !important;
+}
+
+
+.green-border {
+  border-left: 4px solid #04AA6D;
+}
+
+.w3-round, .w3-round-medium {
+  border-radius: 5px;
+}
+
+.tryit-button {
+  background: linear-gradient(93deg, #F6272A 9.61%, #FF0776 92.03%);
+
+
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  width:200px;
+}
+
+.tut-button {
+  background: black;
+
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.tut-button1 {
+  background: linear-gradient(93deg, #F6272A 9.61%, #FF0776 92.03%);
+
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+}
+.tut-button1 {
+  background: linear-gradient(93deg, #F6272A 9.61%, #FF0776 92.03%);
+
+
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.w3csstut {
+  height: 390px;
+}
+
+.tut-button:hover,.tryit-button:hover,.exercise-button:hover,#getdiploma a:hover {
+  background: linear-gradient(93deg, #F6272A 9.61%, #FF0776 92.03%);
+
+ !important;
+  color:white!important;
+}
+
+.bar-item-hover:hover {
+  background-color:grey!important;
+  color:white!important;
+}
+
+.bar-icon-hover:hover {
+  background-color: black!important;
+  color:white!important;
+}
+
+.w3-bar .fa-logo:hover {
+  color:grey!important;
+}
+
+.mystyle,.mystyle:hover {
+  background-color: #282A35!important;
+  color:white!important;
+}
+
+.ref-button {
+  background-color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px;
+  color: #000;
+}
+
+.ref-button:hover {
+  background-color: #E7E9EB!important;
+  color: black;
+}
+
+.black-color {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.black-color1 {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.black-color:hover {
+  background-color: #ffffff!important;
+  color: rgb(0, 0, 0)!important;
+}
+
+.grey-color {
+  background-color: #E7E9EB;
+  color: black
+}
+
+.exercise-button {
+  padding: 70px 50px;
+  font-size: 35px;
+  width:87%;
+  opacity:0.97;
+}
+
+
+
+@media screen and (max-width:768px) {
+  h1,
+  .w3-jumbo {
+    font-size: 60px !important;
+  }
+}
+
+#w3_cert_badge_default {
+  position: absolute;
+  right: 25px;
+  width: 220px;
+  transform: rotate(10deg);
+  bottom: -130px;
+}
+
+#w3_cert_arrow_default {
+  position: absolute;
+  right: 200px;
+  width: 220px;
+  transform: rotate(10deg);
+  bottom: -50px;
+  z-index: 1;
+}
+
+#howto_padding {
+  padding: 0px 24px 100px 24px
+}
+
+#getdiploma {
+  position: relative;
+  padding: 0 60px 50px 60px;
+  margin-bottom: 85px;
+  background-color: #282A35;
+  color: #FFC0C7;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#getdiploma p {
+  font-size: 52px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#getdiploma h2 {
+  font-size: 62px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#getdiploma a {
+  border-radius: 50px;
+  font-size: 18px;
+  background-color: grey;
+  padding: 17px 55px
+}
+
+
+@media screen and (max-width: 992px) {
+  #w3_cert_arrow_default {
+    right:128px;
+    bottom:-80px
+  }
+  .w3csstut {
+  height: auto;
+}
+  #w3_cert_badge_default {
+    width: 150px;
+    right: 2%;
+    bottom:-110px
+  }
+
+}
+
+
+@media screen and (max-width: 800px) {
+  #w3_cert_arrow_default {
+    display: none;
+  }
+  #getdiploma h2 {
+    font-size: 55px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  #w3_cert_badge_default {
+    top: -95px;
+    right: 10px;
+    width: 100px;
+  }
+  
+  #howto_padding {
+    padding: 0px 24px 90px 24px
+  }
+
+  #getdiploma p {
+    font-size: 40px;
+  }
+  #getdiploma a {
+    width: 100%;
+     margin-bottom:45px;
+  }
+  div.ext_icon_container {
+    background-color:transparent!important;
+  }
+}
+.tutbuttons a{
+  text-decoration:none;
+}
+
+.tutbuttons a div {
+  opacity:0.9;
+}
+
+.tutbuttons a:hover div {
+  opacity:1;
+}
+
+.ws-yellow-hover:hover {
+  background-color:#fff080!important;
+  color:black!important;
+}
+
+.ws-pink-hover:hover {
+  background-color:#ffb3bb!important;
+  color:black!important;
+}
+
+#google_translate_element {
+  z-index:7!important;
+}
+
+@media screen and (max-width: 860px) {
+  .ws-hide-860 {
+    display: none !important;
+  }
+ 
+}
+@media screen and (max-width: 1080px) {
+  .ws-hide-1080 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .ws-hide-1160 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .ws-hide-1200 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .ws-hide-1300 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .ws-hide-1350 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .ws-hide-950 {
+    display: none !important;
+  }
+}
+#howto_iframe {
+   width: 100%;
+   border: 6px solid #e3e6e8;
+   height: 400px;
+   border-bottom-left-radius:4px;
+   border-bottom-right-radius:4px;
+}
+
+.vl-howto {
+  border-left: 50px solid #282A35;
+  height: 80px;
+  position: absolute;
+  top:-6px;
+  left:50%;
+  margin-left:-25px;
+}
+.vl-howtobtn {
+  width:50%;
+  margin-top:73px;
+}
+
+@media screen and (max-width: 1400px) {
+  .ws-hide-1400 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .ws-hide-1250 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  #howto_iframe {
+    height: 360px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #howto_iframe {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #howto_iframe {
+    height: 280px;
+  }
+  .codeeditorbr-input {
+    margin-left: 15px;
+  }
+  .vl-howto {
+    height:45px;
+  }
+.vl-howtobtn {
+  margin-top:37px;
+}
+}
+@media screen and (max-width:584px) {
+  #howto_iframe {
+    height: 245px;
+  }
+}
+@media screen and (max-width:500px) {
+  #howto_iframe {
+    height: 215px;
+  }
+}
+@media screen and (max-width:450px) {
+  #howto_iframe {
+    height: 203px;
+  }
+}
+.codeeditorbr-container {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.codeeditorbr-row {
+  padding: 10px;
+  background: #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.codeeditorbr-column {
+  float: left;
+}
+
+.codeeditorbr-left {
+  width: 20%;
+}
+
+.codeeditorbr-middle {
+  width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+  .codeeditorbr-left {
+    width: 24%;
+  }
+
+  .codeeditorbr-middle {
+    width: 76%;
+  }
+}
+
+.codeeditorbr-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.codeeditorbr-dot {
+  margin-top: 5px;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.codeeditorbr-input {
+  width: 80%;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+  margin-top: -8px;
+  height: 22px;
+  color: #666;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.hover-yellow:hover {
+  background-color: #fff080 !important;
+  color: black !important;
+}
+
+.codeeditorbr-tablink {
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  display: inline-block;
+  padding: 6px 18px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+}
+
+.codeeditorbr-tablink:hover {
+  background-color: #E7E9EB !important
+}
+
+.hover-yellow:hover {
+  background-color:#fff080!important;
+  color:black!important;
+}
+#bgcodeimg {
+  background: #282A35 url("about/w3codes.png") no-repeat fixed center;
+}
+#bgcodeimg2 {
+  background: #282A35 url("spaces/files/priscilla-du-preez-XkKCui44iM0-unsplash.921aa0c0.jpg") no-repeat fixed center;
+}
+
+form.example {
+  position:relative;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #282A35;
+  border-radius:25px;
+  float: left;
+  width: 80%;
+  padding-left:25px;
+  background: white;
+  border-top-right-radius:0;
+  border-bottom-right-radius:0;
+  border-right:0;
+  border-right: 1px solid #04AA6D;
+  outline:0;
+}
+
+form.example button {
+  border-radius:25px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background:#04AA6D;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #282A35;
+  border-left: none;
+  cursor: pointer;
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+}
+
+form.example button:hover {
+  background: #059862;
+  color: white;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#listofsearchresults {
+  display:none;
+  position:absolute;
+  //border:1px solid #000;
+  background-color:#282A35;
+  background-color:#fff;
+  color:#000;
+  width:80%;
+  top:47px;
+  border-left: 1px solid #282A35;
+  border-right: 1px solid #282A35;
+  border-bottom: 1px solid #282A35;
+  text-align:left;
+}
+#listofsearchresults a {
+  background-color:#e2e3e9;
+  background-color:#fff;
+  color:#777;
+  text-decoration:none;
+  display:block;
+  padding:10px 30px;
+  width:100%;
+  opacity:0.95;
+}
+#listofsearchresults a:hover {
+  color:#000;
+  opacity:1;
+}
+.span_search {
+  background-color:#ffecee;
+}
+.search_active {
+  background-color:#ffecee!important;
+  color:#000!important;
+}
+.search_active .span_search {
+  background-color:#ffccd1;
+}
+
+.learntocodeh1 {
+  font-size:70px;
+  font-weight:700;
+}
+
+.learntocodeh3 {
+  color:#FFF4A3;
+  font-weight:700;
+  margin-top:30px!important;
+  font-size:23px;
+}
+.learntocodeh4 {
+  color:white;
+  font-size:23px;
+  font-weight:700;
+  margin-top:30px!important;
+}
+.learntocodeh4 a:hover,.learntocodeh4 a:active {
+  color:#FFF4A3;
+}
+.learntocodecontent {
+  padding-left:90px;
+  padding-right:90px;
+}
+
+@media screen and (max-width: 600px) {
+  .learntocodeh1 {
+    font-size:50px!important;
+  }
+  .learntocodeh3 {
+    font-size:21px!important;
+  }
+  .learntocodecontent {
+    padding-left:35px;
+    padding-right:35px;
+  }
+  form.example input[type=text],form.example button {
+  font-size: 16px;
+ }
+   form.example input[type=text] {
+   padding-left:16px;
+ }
+}
+
+@media screen and (max-width: 1006px) and (min-width: 992px) {
+  .ws-hide-special  {
+    display:none;
+  }
+}
+
+.grey-color {
+  background-color: #E7E9EB;
+  color: #000;
+}
+.icons-right {
+  color:#f1f1f1;
+}
+body.darkpagetheme .grey-color {
+  background-color: #38444d;
+  color: #ddd;
+}
+
+body.darkpagetheme .bar-icon-hover:hover,body.darkpagetheme .fa-logo:hover {
+  background-color: #1d2a35!important;
+  color:white!important;
+}
+
+body.darkpagetheme #main {
+  border-right:0;
+}
+body.darkpagetheme #wavepath {
+  fill: rgb(40,42,53);
+}
+
+table.gstl_50 {/*google search suggestions*/
+  color:#000;
+}
+.topnavmain_pro {
+  background-color:#9763f6;
+  color:#fff;
+}
+.topnavmain_pro:hover {
+  background-color:#7d53cc!important;
+  color:#fff!important;
+}
+
+body.darkpagetheme .icons-right  {
+    color: #eee;
+}
+
+.pro-caption {
+  padding: 78px 35px 96px 35px;
+  text-align: center
+}
+
+.pro-caption h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 55px;
+  padding-top: 11px;
+  padding-bottom: 20px;
+  font-family: Source Sans Pro;
+  color: #fff;
+  margin: 0
+}
+
+.pro-caption h3 {
+  font-size: 25px;
+  color: #FFC0C7;
+  margin:19px 0;
+}
+
+.pro-caption li {
+  font-size:20px;
+  line-height:36px;
+  text-align:left;
+  list-style-type:none;
+}
+
+@media screen and (max-width:620px) {
+  .pro-caption {padding: 70px 15px 70px 15px;}
+  .pro-caption h1 {font-size:50px;}
+  .pro-caption h3 {font-size:24px;}
+  .pro-caption li {font-size:18px;}
+}
+
+@media screen and (max-width:550px) {
+  .pro-caption h1 {font-size:40px;}
+  .pro-caption h3 {font-size:24px;}
+  .pro-caption li {font-size:18px;}
+}
+#footer .w3-small,#footer a {
+  font-family: Verdana,sans-serif;
+}
+</style>
+</head>
+<body style="font-family: &#x27;Source Sans Pro&#x27;, sans-serif;">
+<div id="tnb-search-suggestions"></div>
+
+<div id="top-nav-bar" class="classic">
+  <div id="pagetop" class="w3-bar notranslate w3-white">
+    <a id="custom-logo" href="../../images/w3schools_logo_436_2.png" class="w3-bar-item w3-button w3-left ga-top custom-logo" title="Home" style="width: 100px" aria-label="Home link">
+      <img src="../../images/w3schools_logo_436_2.png" alt="Custom Logo" style="width: 100%; height: auto;">
+    </a>
+
+    <nav class="tnb-desktop-nav w3-bar-item">
+      <a class="tnb-nav-btn w3-bar-item w3-button barex bar-item-hover w3-padding-16 ga-top ga-top-tut-and-ref" href="#" onclick="TopNavBar.openNavItem('tutorials')" id="navbtn_tutorials" title="Tutorials and References" role="button">
+        Home
+        
+      </a>
+
+      <a class="tnb-nav-btn w3-bar-item w3-button barex bar-item-hover w3-padding-16 ga-top ga-top-exc-and-quz" href="video.html" onclick="TopNavBar.openNavItem('exercises')" id="navbtn_exercises" title="Exercises and Quizzes" role="button">
+        Video Tutoral
+       
+      </a>
+
+      <a class="tnb-nav-btn w3-bar-item w3-button barex bar-item-hover w3-padding-16 tnb-paid-service ga-top ga-top-cert-and-course" href="#" onclick="TopNavBar.openNavItem('certified')" id="navbtn_certified" title="Certificates" role="button">
+        Certificates
+
+      </a>
+
+      <a class="tnb-nav-btn w3-bar-item w3-button barex bar-item-hover w3-padding-16 ga-top ga-top-services" href="https://mahendras.gitbook.io/untitled/" onclick="TopNavBar.openNavItem('services')" id="navbtn_services" title="Our Services" role="button">
+       Documentation
+
+      </a>
+    </nav>
+
+    <a class="tnb-menu-btn w3-bar-item w3-button bar-item-hover w3-padding-16 ga-top ga-top-menu" href="javascript:void(0)" onclick="TopNavBar.openMenu()" title="Menu" aria-label="Menu" role="button">
+      Menu
+     
+    </a>
+
+    <div id="tnb-google-search-container" class="w3-bar-item">
+      <div id="tnb-google-search-inner-container">
+        <label for="tnb-google-search-input" class="tnb-soft-hide">
+          Search field
+        </label>
+
+        
+        
+      </div>
+
+      <div id="tnb-google-search-mobile-action-btns">
+        <div id="tnb-google-search-mobile-show" class="tnb-button" onclick="TopNavBar.googleSearchShowMobileContainer()" aria-label="Button to open search field" role="button">
+          <svg viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.8153 10.3439C12.6061 9.2673 13.0732 7.9382 13.0732 6.5C13.0732 2.91015 10.163 0 6.57318 0C2.98333 0 0.0731812 2.91015 0.0731812 6.5C0.0731812 10.0899 2.98333 13 6.57318 13C8.01176 13 9.3412 12.5327 10.4179 11.7415L10.4171 11.7422C10.4466 11.7822 10.4794 11.8204 10.5156 11.8566L14.3661 15.7071C14.7566 16.0976 15.3898 16.0976 15.7803 15.7071C16.1708 15.3166 16.1708 14.6834 15.7803 14.2929L11.9298 10.4424C11.8936 10.4062 11.8553 10.3734 11.8153 10.3439ZM12.0732 6.5C12.0732 9.53757 9.61075 12 6.57318 12C3.53561 12 1.07318 9.53757 1.07318 6.5C1.07318 3.46243 3.53561 1 6.57318 1C9.61075 1 12.0732 3.46243 12.0732 6.5Z" fill="currentColor"/>
+          </svg>
+        </div>
+
+        <div id="tnb-google-search-mobile-close" class="tnb-button" onclick="TopNavBar.googleSearchHideMobileContainer()" role="button" aria-label="Close search field">
+          <i>&times;</i>
+        </div>
+      </div>
+    </div>
+
+    <div id="tnb-dark-mode-toggle-wrapper" class="w3-bar-item">
+      <a id="tnb-dark-mode-toggle-btn" href="javascript:void(0);" class="tnb-button fa ga-nav ga-dark-mode-toggle" onclick="TopNavBar.toggleUserPreferredTheme()" role="button" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">
+        <i>&#xe80b;</i>
+      </a>
+    </div>
+
+    <div class="tnb-right-section">
+      <!-- < user-anonymous -->
+      <a href="#" class="user-anonymous tnb-login-btn w3-bar-item w3-btn w3-hide bar-item-hover w3-right ws-light-green ga-top ga-top-login" title="Login to your account" aria-label="Login to your account">
+        Log in
+      </a>
+
+      <a href="#" class="user-anonymous tnb-signup-btn w3-bar-item w3-button w3-hide w3-right ws-green ws-hover-green ga-top ga-top-signup" title="Sign Up to Improve Your Learning Experience" aria-label="Sign Up to Improve Your Learning Experience">
+        Sign Up
+      </a>
+      <!-- > user-anonymous -->
+
+      <!-- < user-authenticated -->
+      <a href="#" class="user-authenticated user-profile-btn w3-alt-btn w3-hide ga-top ga-top-profile" title="Your W3Schools Profile" aria-label="Your W3Schools Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2048 2048" class="user-profile-icon" aria-label="Your W3Schools Profile Icon">
+          <path d="M 843.500 1148.155 C 837.450 1148.515, 823.050 1149.334, 811.500 1149.975 C 742.799 1153.788, 704.251 1162.996, 635.391 1192.044 C 517.544 1241.756, 398.992 1352.262, 337.200 1470 C 251.831 1632.658, 253.457 1816.879, 340.500 1843.982 C 351.574 1847.431, 1696.426 1847.431, 1707.500 1843.982 C 1794.543 1816.879, 1796.169 1632.658, 1710.800 1470 C 1649.008 1352.262, 1530.456 1241.756, 1412.609 1192.044 C 1344.588 1163.350, 1305.224 1153.854, 1238.500 1150.039 C 1190.330 1147.286, 1196.307 1147.328, 1097 1149.035 C 1039.984 1150.015, 1010.205 1150.008, 950 1149.003 C 851.731 1147.362, 856.213 1147.398, 843.500 1148.155" stroke="none" fill="#2a93fb" fill-rule="evenodd"/>
+          <path d="M 1008 194.584 C 1006.075 194.809, 999.325 195.476, 993 196.064 C 927.768 202.134, 845.423 233.043, 786 273.762 C 691.987 338.184, 622.881 442.165, 601.082 552 C 588.496 615.414, 592.917 705.245, 611.329 760.230 C 643.220 855.469, 694.977 930.136, 763.195 979.321 C 810.333 1013.308, 839.747 1026.645, 913.697 1047.562 C 1010.275 1074.879, 1108.934 1065.290, 1221 1017.694 C 1259.787 1001.221, 1307.818 965.858, 1339.852 930.191 C 1460.375 795.998, 1488.781 609.032, 1412.581 451.500 C 1350.098 322.327, 1240.457 235.724, 1097.500 202.624 C 1072.356 196.802, 1025.206 192.566, 1008 194.584" stroke="none" fill="#0aaa8a" fill-rule="evenodd"/>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="user-progress" aria-label=" Progress">
+          <path class="user-progress-circle1" fill="none" d="M 25.99650934151373 15.00000030461742 A 20 20 0 1 0 26 15"/>
+          <path class="user-progress-circle2" fill="none" d="M 26 15 A 20 20 0 0 0 26 15"/>
+        </svg>
+
+        <span class="user-progress-star">&#x2605;</span>
+
+        <span class="user-progress-point">+1</span>
+      </a>
+
+      
+      <!-- > user-authenticated -->
+
+      <!-- < user-anonymous - action-btn -->
+      
+
+      <a href="space.html" class="user-anonymous tnb-spaces-btn w3-bar-item w3-button w3-hide w3-right w3-white ga-top ga-top-spaces" title="Get Your Own Website With W3Schools Spaces" aria-label="Get Your Own Website With W3Schools Spaces">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" aria-hidden="true">
+          <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" fill="currentColor"/>
+        </svg>
+        Spaces
+      </a>
+      
+     
+
+      <!-- > user-anonymous - action-btn -->
+
+      <!-- < user-authenticated - action-btn -->
+      <a target="_blank" href="#" class="user-authenticated tnb-certificates-btn w3-bar-item w3-button w3-hide w3-right w3-white ga-top ga-top-certificates" title="W3Schools Certificates" aria-label="W3Schools Certificates">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" aria-hidden="true">
+          <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H69.5c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H199.7c-11.5 0-21.4-8.2-23.6-19.5L170.7 288H459.2c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32h-411C111 12.8 91.6 0 69.5 0H24zM131.1 80H520.7L482.4 222.2c-2.8 10.5-12.3 17.8-23.2 17.8H161.6L131.1 80zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" fill="currentColor"/>
+        </svg>
+        Get Certified
+      </a>
+
+      <a href="space.html" class="user-authenticated tnb-spaces-btn w3-bar-item w3-button w3-hide w3-right w3-white ga-top ga-top-spaces" title="Go to Your W3Schools Space" aria-label="Go to Your W3Schools Space">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" aria-hidden="true">
+          <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" fill="currentColor"/>
+        </svg>
+        Spaces
+      </a>
+      
+      
+      <!-- > user-authenticated - action-btn -->
+    </div>
+  </div>
+
+  <nav id="tnb-mobile-nav" class="tnb-mobile-nav w3-hide">
+    <div class="w3-container">
+      <a href="#" class="user-authenticated w3-button w3-hide ga-top ga-top-dashboard" title="My W3Schools" aria-label="My W3Schools">
+        <span class="tnb-title"></span>
+      </a>
+
+      <div class="tnb-mobile-nav-section" data-section="tutorials">
+        <div class="tnb-mobile-nav-section-toggle-btn w3-button ga-top ga-top-menu-tut-and-ref" onclick="TopNavBar.toggleMobileNav(event, 'tutorials');" aria-label="Tutorials" role="button">
+          <span class="tnb-title">Home</span>
+          
+        </div>
+
+        <div id="sectionxs_tutorials" class="tnb-mobile-nav-section-body">
+          &nbsp;
+        </div>
+      </div>
+
+      <div class="tnb-mobile-nav-section" data-section="exercises">
+        <div class="tnb-mobile-nav-section-toggle-btn w3-button ga-top ga-top-menu-exc-and-quz" onclick="TopNavBar.toggleMobileNav(event, 'exercises')" aria-label="Exercises" role="button">
+          <span class="tnb-title">Exercises</span>
+         
+        </div>
+
+        <div id="sectionxs_exercises" class="tnb-mobile-nav-section-body">
+          &nbsp;
+        </div>
+      </div>
+
+     
+
+       
+     
+
+     
+      
+     
+      
+      <a class="user-authenticated w3-hide w3-button ga-top ga-top-logout" href="#" title="Logout" aria-label="Logout">
+        <span class="tnb-title">Logout</span>
+      </a>
+
+      <div class="tnb-social-network-btns">
+        <a class="w3-button w3-round ga-fp" target="_blank" href="#" title="Facebook">
+          <i class="tnb-icon fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+
+        <a class="w3-button w3-round ga-fp" target="_blank" href="#" title="Instagram">
+          <i class="tnb-icon fa fa-instagram" aria-hidden="true"></i>
+        </a>
+
+        <a class="w3-button w3-round ga-fp" target="_blank" href="#" title=" Discord">
+          <i class="tnb-icon fa fa-discord" aria-hidden="true"></i>
+        </a>
+
+        <a class="w3-button w3-round ga-fp" target="_blank" href="#" title="LinkedIn">
+          <i class="tnb-icon fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-button tnb-close-menu-btn w3-round ga-top ga-top-close-accordion" tabindex="0" onclick="TopNavBar.closeMenu()" role="button" aria-label="Close menu">
+      <span>&times;</span>
+    </div>
+  </nav>
+
+  
+
+
+
+
+  <div id="googleSearch">
+    <div class="gcse-search"></div>
+  </div>
+</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTCFC3S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script>
+(
+function setThemeMode() {
+  var x = localStorage.getItem("preferredmode");
+  var y = localStorage.getItem("preferredpagemode");  
+  if (x == "dark") {
+    document.body.className += " darktheme";
+  }
+  if (y == "dark") {
+    document.body.className += " darkpagetheme";
+  }
+})();
+</script>
+<style>
+#subtopnav {
+  position:fixed;
+  background-color: #282A35;
+  color:#f1f1f1;
+  padding:0;
+  letter-spacing:1px;
+  font-family: 'Source Sans Pro Topnav', sans-serif;
+  font-size:0;
+  top:56px;
+  z-index:2;
+  width:100%;
+  white-space:nowrap;
+  overflow:auto;
+  scrollbar-width: none;
+}
+#subtopnav a{
+  display:inline-block;
+  width:auto;
+  margin:0!important;
+  padding:5px 15px 5px 15px !important;
+  font-size:15px!important;
+  text-decoration: none;  
+  line-height: 1.5;
+}
+#subtopnav a:hover,#subtopnav a:focus,#subtopnav a:active{
+  background-color:#000000 !important;
+  color:#ffffff !important;
+}
+#subtopnav a.active{
+  background-color: #04AA6D!important;
+  color:#fff!important;  
+}
+#btn_container_subtopnav {
+  position:fixed;
+  right:0;
+  top:56px;
+  font-size:0;
+  xxborder-left:10px solid rgba(40, 42, 53,0.5);
+  
+}
+#btn_container_subtopnav a{
+  line-height:1.3!important;
+  padding-top:7px!important;
+  padding-bottom:6px!important; 
+  font-size:15px;
+  background-color:#282A35;  
+}
+#scroll_left_btn {
+  cursor:pointer;
+  display:none;
+  position:fixed;
+  left:0;
+  top:56px;
+  font-size: 15px;
+  xborder-right: 10px solid rgba(40, 42, 53,0.5);
+  xbackground: red;
+  }
+#scroll_left_btn span {
+  xbackground-color:#282A35;
+  background: linear-gradient(to right, #282A35 70%, transparent 100%);
+  display:block;
+  padding-top:5px;
+  padding-bottom:5px;  
+}
+#scroll_left_btn span:hover {
+  background: linear-gradient(to right, #000 95%, transparent 100%);
+}
+
+#scroll_right_btn:hover {
+  background: linear-gradient(to left, #000 95%, transparent 100%);
+}
+#menubtn_container {
+  position:fixed;
+  left:0;
+  top:56px;
+  xborder-right:10px solid rgba(40, 42, 53,0.5);
+  height:33px;
+  color:white;
+  font-size:15px;
+}
+#menubtn_container span {
+  background-color:#282A35;  
+}
+#darkmodemenu {
+  position:fixed!important;
+  right:0;!important;  
+}
+#subtopnav::-webkit-scrollbar {
+  display:none!important;
+}
+
+#google_translate_element a{
+  font-size:13px!important;
+
+  line-height: normal;
+}
+#google_translate_element a:hover{
+  background-color:#fff!important;  
+  color:#000!important;    
+}
+</style>
+<script>
+activate_subtopnav_scroll = 0;
+from_scrollpos = -1;
+current_scrollpos = -1;
+goto_tut = 1;
+function startscrolling_subtopnav(event) {
+  event.preventDefault();
+  from_scrollpos = event.clientX;
+  activate_subtopnav_scroll = 1;
+}
+function scrolling_subtopnav(event) {
+  current_scrollpos = event.clientX;
+  if (current_scrollpos == from_scrollpos) return false;
+  event.preventDefault();
+  if (event.buttons == 0) return false;
+  var scrollspeed;
+  if (activate_subtopnav_scroll == 1) {
+    goto_tut = 0;
+    scrollspeed = current_scrollpos - from_scrollpos;
+    scrollspeed = Math.abs(scrollspeed);
+    if (current_scrollpos < from_scrollpos) {
+     document.getElementById("scroll_left_btn").style.display = "block";     
+     document.getElementById("subtopnav").scrollLeft += scrollspeed;        
+    } else {
+      document.getElementById("subtopnav").scrollLeft -= scrollspeed;        
+    }
+    scrollbtn_visible();
+    from_scrollpos = current_scrollpos;
+  }
+}
+function endscrolling_subtopnav(event) {
+  event.preventDefault();
+  activate_subtopnav_scroll = 0;
+  from_scrollpos = -1;
+  current_scrollpos = -1;
+}
+function pellessii(event) {
+  if (goto_tut == 0) {
+    event.preventDefault();  
+    goto_tut = 1;
+    return false;
+  }
+}
+var scrollspeed = 1;
+var scrollinterval
+function scrollmenow(n) {
+  scrollinterval = window.setInterval(function() {
+    scrollspeed = scrollspeed * 1.1;
+    if (scrollspeed > 10) {scrollspeed = 10;}
+    if (n == 1) {
+      document.getElementById("subtopnav").scrollLeft += scrollspeed;  
+    } else {
+      document.getElementById("subtopnav").scrollLeft -= scrollspeed;  
+      
+    }
+    scrollbtn_visible();
+  }, 10);
+}
+
+var p_s_l = 0;
+var x_s_l = 0;
+function scrollbtn_visible() {
+  var c_s_l = document.getElementById("subtopnav").scrollLeft;
+  if (c_s_l < 1) {
+    document.getElementById("scroll_left_btn").style.display = "none";    
+  } else {
+    document.getElementById("scroll_left_btn").style.display = "block";    
+  }
+  if (c_s_l > 1 && c_s_l == p_s_l) {
+    x_s_l++;
+  } else {
+    x_s_l = 0;  
+  }
+  if (x_s_l > 3) {
+    document.getElementById("scroll_right_btn").style.display = "none";    
+  } else {
+    document.getElementById("scroll_right_btn").style.display = "block";  
+  }
+  p_s_l = document.getElementById("subtopnav").scrollLeft;
+}
+
+function stopscrollmenow() {
+  scrollspeed = 1;
+  window.clearInterval(scrollinterval);
+}
+
+//window.addEventListener("load", subtopnav_intoview);
+
+function subtopnav_intoview() {
+  var a, b, c, d, i = 0;
+  a = document.getElementById("subtopnav");
+  if (!a || !a.getElementsByClassName) {return false;}
+  var x = a.getElementsByTagName("A");
+  b = document.location.pathname;  
+  if (b.indexOf("/python/numpy/") > -1 || b.indexOf("/python/pandas/") > -1 || b.indexOf("/python/scipy/") > -1) {
+    for (i = 0; i < x.length; i++) {
+      c = x[i].pathname;
+      if ((b.indexOf("/python/numpy/") > -1 && c == "/python/numpy/default.asp") || (b.indexOf("/python/pandas/") > -1 && c == "/python/pandas/default.asp") || (b.indexOf("/python/scipy/") > -1 && c == "/python/scipy/index.php")) {
+        x[i].className += " active";
+        break;
+      }
+    }
+  } else {
+    for (i = 0; i < x.length; i++) {
+      c = x[i].pathname;
+      if (c.indexOf("void(0)") == -1 && b.substr(0, b.indexOf("/",1)) ==  c.substr(0, c.indexOf("/",1))) {
+        x[i].className += " active";
+        break;
+      }
+    }
+  }
+  d = a.getElementsByClassName("active");
+  if (d.length < 1) {return false;}  
+  while (!amIIntoView(a, d[0])) {
+    i++
+    if (i > 1000) {break;}
+    a.scrollLeft += 10;
+  }
+  scrollbtn_visible();
+}
+
+function amIIntoView(x, y) {
+  var a = x.scrollLeft;
+  var b = a + window.innerWidth;
+  var ytop = y.offsetLeft;
+  var c = y.offsetWidth;
+  var d = 0;
+  if (document.getElementById("btn_container_subtopnav")) d = document.getElementById("btn_container_subtopnav").offsetWidth;
+  var ybottom = ytop + c + d + 20;
+  return ((ybottom <= b) && (ytop >= a));
+}
+
+</script>
+
+  <
+<script>
+subtopnav_intoview();
+</script>
+
+
+<div class="w3-main w3-light-grey" id="belowtopnav">
+
+  <div class="w3-row w3-white">
+    
+    <div class="w3-col l12 m12" id="main">      
+
+<div class="ws-black w3-center herosection">
+  <div class="w3-content learntocodecontent" style="xmax-width:1400px">
+    <h1 class="learntocodeh1">Learn to Code</h1>
+    <h3 class="learntocodeh3"> 
+      <i class="fa fa-logo w3-hide" style="color:#FFC0C7!important;margin-right:20px;z-index:1;font-size:36px!important;vertical-align:bottom"></i>
+      With the world's largest Sophia Learning site.
+    </h3>
+    <br>
+    
+    <h4 class="learntocodeh4">
+      <a href="#" class="ga-fp">Not Sure Where To Begin?</a>
+    </h4>
+  </div>
+</div>
+
+<svg style="background-color:#D9EEE1;" width="100%" height="70" viewbox="0 0 100 100" preserveAspectRatio="none">
+  <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"/>
+</svg>
+
+<div class="w3-row w3-padding-32 ws-light-green" style="margin-top:-10px;">
+<div class="w3-content" style="xmax-width:1400px">
+
+ <div class="w3-col l6 w3-center" style="padding:3%;">
+  <h1 style="font-size:100px;font-weight:700;margin-top:-18px!important;">SOPHIA</h1>
+  <p style="font-size:19px;">The language for building smart contract</p>
+  <a href="https://mahendras.gitbook.io/untitled/" class="w3-button ga-fp tut-button" style="margin-bottom:2px;">Learn SOPHIA</a><br>
+  <a style="position:relative;overflow:visible;margin-bottom:1px;" href="video.html" class="w3-button ga-fp ws-yellow tut-button ws-yellow-hover" title="HTML video tutorial">Video Tutorial</a><br>
+  <a href="https://docs.aeternity.com/aesophia/v7.4.0/" class="w3-button ga-fp w3-block ref-button black-color">SOPHIA Reference</a><br>
+  <a href="#" target="_blank" class="w3-button ga-fp w3-block ws-pink ref-button ws-pink-hover" title="Add HTML Certification">Get Certified</a><br>
+  </div>
+ <div class="w3-col l6" style="padding:3%">
+  <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+   <h3>SOPHIA Example:</h3>
+   <div class="w3-code htmlHigh notranslate green-border" style="height:300px">
+contract HelloWorld =
+<br>
+ stateful entrypoint greeting() :<br>
+  "Hello, World!"<br>
+
+   </div>
+   <a href="space.html" target="_blank" class="w3-button ga-fp tryit-button">Try it Yourself</a>
+  </div>
+ </div>
+ </div>
+</div>
+
+<div class="w3-row w3-padding-32 ws-yellow">
+<div class="w3-content" style="xmax-width:1400px">
+ <div class="w3-col l6 w3-center" style="padding:3%">
+  <h1 style="font-size:100px;font-weight:700">IF-Else</h1>
+  <p style="font-size:19px;">The language for building smart contract</p>
+  <a href="css/default.asp/" class="w3-button ga-fp w3-block tut-button1">Learn IF-Else</a><br>
+  <a href="https://docs.aeternity.com/aesophia/v7.4.0/" class="w3-button ga-fp w3-block ref-button black-color1"> Reference</a><br>
+  <a href="#" target="_blank" class="w3-button ga-fp w3-block ws-pink ref-button ws-pink-hover" title="Add CSS Certification">Get Certified</a><br>
+  </div>
+ <div class="w3-col l6" style="padding:3%">
+  <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding:16px;">
+  <h3>If-Else Example:</h3>
+  <div class="w3-code cssHigh notranslate green-border">
+    contract IfElseExample =
+    <br>
+&nbsp; stateful entrypoint compareNumbers(x : int,<br><br>
+y : int) : string =
+<br>
+&nbsp;  "x is less than y"
+  <br>
+&nbsp;  } else if (x > y) {
+  <br>"x is greater than y"
+  <br><br> } else {
+    <br>&nbsp; "x is equal to y"
+    <br>}</div>
+  <a href="space.html" target="_blank" class="w3-button ga-fp tryit-button">Try it Yourself</a>
+  </div>
+ </div>
+ </div>
+</div>
+
+<div class="w3-row w3-padding-32 ws-black">
+<div class="w3-content" style="xmax-width:1400px">
+ <div class="w3-col l6 w3-center" style="padding:3%">
+  <h1 style="font-size:70px;font-weight:700;margin-bottom:18px!important">Loop</h1>
+  <p style="font-size:19px">The language for building smart contract</p>
+  <a href="js/default.asp/" class="w3-button ga-fp w3-block tut-button1">Learn Loop</a><br>
+  <a href="https://docs.aeternity.com/aesophia/v7.4.0/" class="w3-button ga-fp w3-block ref-button">Reference</a><br>
+  <a href="https://docs.aeternity.com/aesophia/v7.4.0/" target="_blank" class="w3-button ga-fp w3-block ws-pink ref-button ws-pink-hover" title="Add JavaScript Certification">Get Certified</a><br>
+ </div>
+ <div class="w3-col l6" style="padding:3%">
+  <div class="w3-hide-small w3-card-2 grey-color w3-round" style="padding:16px;">
+   <h3>Loop Example:</h3>
+   <div class="w3-code notranslate green-border">
+   <div class="htmlHigh">
+&lt;contract LoopExample =
+<br>
+stateful entrypoint sumUpToN(n : int) : int =<br>
+var total = 0
+<br>
+     &nbsp; for (i in 1 to n) {
+      <br>
+&nbsp;  
+
+<br>
+ total <br>
+
+    </div>
+   </div>
+   <a href="space.html" target="_blank" class="w3-button ga-fp tryit-button">Try it Yourself</a>
+  </div>
+ </div>
+ </div>
+</div>
+
+<div class="w3-row w3-padding-32 ws-light-pink">
+<div class="w3-content" style="xmax-width:1400px">
+ <div class="w3-col l6 w3-center" style="padding:3%">
+  <h1 style="font-weight:700">Token</h1>
+  <p style="font-size:19px">The language for building smart contract</p>
+  <a href="https://mahendras.gitbook.io/untitled/" class="w3-button ga-fp w3-block tut-button">Learn Token</a><br>
+  <a href="https://docs.aeternity.com/aesophia/v7.4.0/" class="w3-button ga-fp ref-button black-color">Reference</a><br>
+  <a href="#" target="_blank" class="w3-button ga-fp w3-block ws-pink ref-button ws-pink-hover" title="Add Python Certification">Get Certified</a><br>
+ </div>
+ <div class="w3-col l6" style="padding:3%">
+  <div class="w3-hide-small w3-card-2 grey-color w3-round" style="padding:16px;">
+  <h3>Smart Token Example:</h3>
+  <div class="w3-code jsHigh notranslate green-border" style="height:210px">
+    contract SimpleToken =
+
+<br>
+&nbsp;  record state = {
+  owner: address,
+  balances: map(address, int)
+}
+<br>
+stateful entrypoint init() =
+{ owner = Call.caller, balances = {} } <br>
+entrypoint getBalance(address : address) : int = <br>
+&nbsp;switch(Map.lookup(address, state.balances))
+<!-- hiiii -->
+
+
+
+
+
+  </div>
+  <a href="space.html" target="_blank" class="w3-button ga-fp tryit-button">Try it Yourself</a>
+  </div>
+ </div>
+ </div>
+</div>
+
+<div class="w3-row w3-padding-32 ws-turquoise">
+<div class="w3-content" style="xmax-width:1400px">
+ <div class="w3-col l6 w3-center" style="padding:3%">
+  <h1 style="font-weight:700">Entrypoints</h1>
+  <p style="font-size:19px">The language for building smart contract</p>
+  <a href="https://mahendras.gitbook.io/untitled/" class="w3-button ga-fp w3-block tut-button">Learn Entrypoints</a><br>
+  <a href="https://docs.aeternity.com/aesophia/v7.4.0/" class="w3-button ga-fp ref-button black-color1"> Reference</a><br>
+  <a href="#" target="_blank" class="w3-button ga-fp w3-block ws-pink ref-button ws-pink-hover" title="Add SQL Certification">Get Certified</a><br>
+
+ </div>
+ <div class="w3-col l6" style="padding:3%">
+  <div class="w3-hide-small w3-card-2 grey-color w3-round" style="padding:16px;">
+  <h3>Entrypoints for token functionality
+    :</h3>
+  <div class="w3-code sqlHigh notranslate green-border" style="height:210px">
+    entrypoint init() : state =
+    <br>
+    { balances = {} }<br>
+    entrypoint get_balance(owner : address) : int <br>
+    =<br>
+    switch(Map.lookup(owner, state.balances)) <br>
+    None    => 0<br>
+    Some(balance) => balance
+
+
+
+  </div>
+  <a href="space.html" target="_blank" class="w3-button ga-fp tryit-button">Try it Yourself</a>
+  </div>
+ </div>
+</div>
+</div>
+
+
+   
+
+    
+
+    
+    
+    <!-- End small boxes -->
+
+    <!-- other boxes -->
+   
+   
+   
+<div class="ws-black" style="padding:30px 3px 85px 3px">
+  <div class="w3-content w3-padding" style="max-width:974px;padding-top:78px;padding-bottom:125px">
+    <h1 style="font-size:65px;font-weight:700;text-align:center">Code Editor</h1>
+    <h4 style="margin-top:25px;" class="w3-center">With our online code editor, you can edit code and view the result in your browser</h4>
+    <br><br>
+    <div class="codeeditorbr-container">
+      <div class="codeeditorbr-row">
+        <div class="codeeditorbr-column codeeditorbr-left">
+          <span class="codeeditorbr-dot" style="background:#ED594A;"></span>
+          <span class="codeeditorbr-dot" style="background:#FDD800;"></span>
+          <span class="codeeditorbr-dot" style="background:#5AC05A;"></span>
+        </div>
+
+        <div class="codeeditorbr-column codeeditorbr-middle">
+          <input type="text" disabled class="codeeditorbr-input" value="">
+        </div>
+      </div>
+        <div class="w3-bar" style="background-color:#f1f1f1">
+    <button class="w3-bar-item w3-button ga-fp codeeditorbr-tablink ws-grey" style="color:black" onclick="openLangTab(event,'Frontend')">Contract</button>
+
+  </div>
+   <div id="Frontend" class="proglang">
+      <video  style="width:100%;height:auto;display:block;border-bottom-left-radius:4px;border-bottom-right-radius:4px;" loading="lazy" alt="Frontend Code Editor">
+        <source src="0120 (5).mp4" type="video/mp4">
+      </video>
+      </div>
+
+    </div><br>
+    
+    <a href="space.html" target="_blank" class="ws-btn w3-mobile" style="font-size:18px;text-align:left;">Try Sophia Editor </a><br><br>
+   
+  </div>
+</div>
+
+
+
+<div class="pro-caption ws-black">
+  <h1>Become a PRO User</h1>
+  <h3>And unlock powerful features:</h3>
+
+  <div style="text-align:center;margin:auto">
+    <ul style="display:inline-block">
+      <li style="margin-right:15px;">Browse Sophiya learn<strong>without ads</strong></li>
+
+      <li style="margin-right:15px;">Access to our <a >Pro Video Tutorial</a></li>
+    </ul>
+  </div>
+  <a href="pro/index.php/" class="ws-btn tut-button ga-fp" style="margin-top:35px;font-size:20px;width:300px;padding: 11px 18px;" id="proFromDefault">Learn More</a><br>
+</div>
+
+
+
+
+
+<div class="w3-center w3-padding-64 ws-black" style="padding-left:20px;padding:right:20px;background: linear-gradient(93deg, #F6272A 9.61%, #FF0776 92.03%);
+
+color:white">
+  <h2 style="font-size:65px;font-weight:700">Exercises and Quizzes</h2>
+  <h4>Test your skills!</h4>
+  <br>
+  <div class="w3-row-padding w3-content" style="max-width:1352px">
+    <div class="w3-half">
+      <p><a class="w3-button ga-fp exercise-button w3-round ws-green" href="exercises/index.php/">Exercises</a></p>
+    </div>
+    <div class="w3-half">
+      <p><a class="w3-button ga-fp exercise-button w3-round ws-yellow hover-yellow" href="quiztest/default.asp/">Quizzes</a></p>
+    </div>
+  </div><br>
+</div>
+
+
+
+
+
+    
+
+
+<!-- END MAIN -->
+
+<script src="lib/w3codecolor.js"></script>
+<script>
+function openLangTab(evtEd, codeName) {
+  var indexEditor, proglanguage, progtablinks;
+  proglanguage = document.getElementsByClassName("proglang");
+  for (indexEditor = 0; indexEditor < proglanguage.length; indexEditor++) {
+    proglanguage[indexEditor].style.display = "none";
+  }
+  progtablinks = document.getElementsByClassName("codeeditorbr-tablink");
+  for (indexEditor = 0; indexEditor < proglanguage.length; indexEditor++) {
+    progtablinks[indexEditor].className = progtablinks[indexEditor].className.replace(" ws-grey", "");
+  }
+  document.getElementById(codeName).style.display = "block";
+  evtEd.currentTarget.className += " ws-grey";
+}
+
+
+function open_search(elmnt, sfb) {
+  var a = document.getElementById("googleSearch");
+  if (a.style.visibility == "hidden" && a.style.display == "") {
+    a.style.visibility = "";
+    a.style.display = "none";
+  }
+  if (sfb == false) {
+    if (a.style.display == "") {
+      a.style.visibility = "";
+      a.style.display = "none";
+      //elmnt.innerHTML = "<i class='fa'>&#xe802;</i>";    
+    } else {
+      a.style.display = "";
+      a.style.visibility == "hidden"
+    if (window.innerWidth > 700) {
+      a.style.width = "40%";
+    } else {
+      a.style.width = "80%";
+    }
+    window.setTimeout(function () {
+          if (document.getElementById("gsc-i-id1")) {
+            document.getElementById("gsc-i-id1").focus();
+          }
+        }, 400);
+    }
+  } else {
+    if (a.style.display == "") {
+      a.style.visibility = "";
+      a.style.display = "none";
+    } else {
+      a.style.display = "";
+      a.style.visibility == "hidden"
+    }
+    a.style.visibility = "hidden";
+    a.style.display = ""; 
+  }
+}
+
+
+var searchFromBox = false;
+function click_learntocode_search_btn() {
+  var x = document.getElementsByClassName("search_item");
+  if (x.length == 0) {
+    cc = 1;
+  }
+  for (i = 0; i < x.length; i++) {
+    if (x[i].className.indexOf("search_active") > -1) {
+      n = x[i].href;
+      if (n.indexOf("search_entire_w3schools") > -1) {
+        cc = 1;
+      }
+      break;
+    }
+  }
+  if (cc == 1) {
+    searchFromBox = true;
+    submit_search_form();
+  } else {
+    window.location = n;
+  }
+}
+function find_search_results(inp) {
+  var a, val, i, l, resultIndexes = [], resultTexts = [], html = "", classAtt = "", pos1, posNext, cc, c0, c1, c2, searchArray = array_search_suggestions;
+  a = document.getElementById("listofsearchresults");
+  a.innerHTML = "";
+  a.style.display = "none";
+  document.getElementById("search2").style.borderBottomLeftRadius = "25px";
+  val = inp.value.toUpperCase();
+  if (val == "") return false;
+  for (i = 0; i < searchArray.length; i++) {
+    if (searchArray[i][0].toUpperCase().substr(0, val.length) == val || searchArray[i][2].toUpperCase().substr(0, val.length) == val) {
+      if (resultTexts.indexOf(searchArray[i][2]) == -1) {
+        resultIndexes.push(i);
+        resultTexts.push(searchArray[i][2]);
+        if (resultIndexes.length > 5) break;
+      }
+    }
+  }
+  for (i = 0; i < searchArray.length; i++) {
+    if (resultIndexes.indexOf(i) == -1 && (searchArray[i][0].toUpperCase().indexOf(val) > -1 || searchArray[i][2].toUpperCase().indexOf(val) > -1)) {
+      if (resultTexts.indexOf(searchArray[i][2]) == -1) {
+        resultIndexes.push(i);
+        resultTexts.push(searchArray[i][2]);        
+        if (resultIndexes.length > 5) break;
+      }
+    }
+  }
+  //if (resultIndexes.length == 0) return false;
+  document.getElementById("search2").style.borderBottomLeftRadius = "0";
+  a.style.display = "block";
+  for (i = 0; i < resultIndexes.length; i++) {
+    cc = searchArray[resultIndexes[i]][2];
+    pos1 = cc.toUpperCase().indexOf(val);
+    dd = "";
+    while (pos1 > -1) {
+      c0 = cc.substr(0, pos1);
+      c1 = "<span class='span_search'>" + cc.substr(pos1, val.length) + "</span>";
+      c2 = cc.substr(pos1 + val.length);
+      dd += c0 + c1;
+      posNext = c2.toUpperCase().indexOf(val);
+      if (posNext > -1) {
+        cc = c2;
+        pos1 = posNext;
+      } else {
+        cc = dd + c2;
+        pos1 = -1;
+      }
+    }
+    classAtt = "";
+    if (html == "") classAtt = " search_active";
+    html += "<a class='search_item" + classAtt + "' href='" + searchArray[resultIndexes[i]][1] + "'>" + cc + "</a>";
+  }
+  if (resultIndexes.length == 0) {
+    classAtt = "";
+    if (html == "") classAtt = " search_active";
+    html += "<a class='search_item" + classAtt + "' onclick='click_search_w3schools_link(event)' href='search_entire_w3schools'>Search W3Schools</a>";
+  }
+  a.innerHTML = html;
+}
+function click_search_w3schools_link(event) {
+  event.preventDefault();
+  submit_search_form();
+}
+function key_pressed_in_search(event) {
+  var x, n, nn, i, cc = 0;
+  var keycode = event.keyCode;
+  //console.log(keycode);
+  if (keycode == 38 || keycode == 40) { //up || down
+    x = document.getElementsByClassName("search_item");
+    for (i = 0; i < x.length; i++) {
+      if (x[i].className.indexOf("search_active") > -1) {
+        x[i].className = "search_item";
+        n = i;
+        break;
+      }
+    }
+    if (keycode == 38) {
+      nn = n - 1;
+      if (nn < 0) nn = 0;
+    }
+    if (keycode == 40) {
+      nn = n + 1;
+      if (nn >= x.length) nn = nn - 1; 
+    }
+    x[nn].className = "search_item search_active";
+  }
+  if (keycode == 13) {  //enter
+    event.preventDefault();
+    x = document.getElementsByClassName("search_item");
+    if (x.length == 0) {
+      cc = 1;
+    }
+    for (i = 0; i < x.length; i++) {
+      if (x[i].className.indexOf("search_active") > -1) {
+        n = x[i].href;
+        if (n.indexOf("search_entire_w3schools") > -1) {
+          cc = 1;
+        }
+        break;
+      }
+    }
+    if (cc == 1) {
+      searchFromBox = true;
+      submit_search_form();
+    } else {
+      window.location = n;
+    }
+  }
+}
+
+function submit_search_form() {
+    searchFromBox = true;
+    gSearch();
+    var delayInMilliseconds = 100; //0.1 second
+    setTimeout(execute_google_search, delayInMilliseconds);
+}
+
+function execute_google_search() {
+  if (typeof google == 'object') {
+    google.search.cse.element.getElement("standard0").execute(document.getElementById("search2").value);
+  } else {
+    setTimeout(execute_google_search, 100);
+  }  
+}
+
+document.body.addEventListener("click", function(event) {
+  var a, x = event.srcElement;
+  if (x.id == "search2" ||x.id == "learntocode_searchbtn" || x.id == "learntocode_searchicon" || x.classList.contains("search_item")) {
+  } else {
+    a = document.getElementById("listofsearchresults");
+    a.innerHTML = "";
+    a.style.display = "none";
+    document.getElementById("search2").style.borderBottomLeftRadius = "25px";
+    if (searchFromBox == true) {
+      document.getElementById("googleSearch").style.display = "none";
+      document.getElementById("googleSearch").style.visibility = "block";  
+    }
+    searchFromBox = false;
+  }
+});
+
+</script>
+<div id="user-profile-bottom-wrapper" class="user-authenticated user-profile-bottom-wrapper w3-hide">
+  <a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" class="user-profile-btn ga-bottom ga-bottom-profile" title="Your W3Schools Profile" aria-label="Your W3Schools Profile" target="_top">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2048 2048" class="user-profile-icon" aria-label="Your W3Schools Profile Icon">
+      <path d="M 843.500 1148.155 C 837.450 1148.515, 823.050 1149.334, 811.500 1149.975 C 742.799 1153.788, 704.251 1162.996, 635.391 1192.044 C 517.544 1241.756, 398.992 1352.262, 337.200 1470 C 251.831 1632.658, 253.457 1816.879, 340.500 1843.982 C 351.574 1847.431, 1696.426 1847.431, 1707.500 1843.982 C 1794.543 1816.879, 1796.169 1632.658, 1710.800 1470 C 1649.008 1352.262, 1530.456 1241.756, 1412.609 1192.044 C 1344.588 1163.350, 1305.224 1153.854, 1238.500 1150.039 C 1190.330 1147.286, 1196.307 1147.328, 1097 1149.035 C 1039.984 1150.015, 1010.205 1150.008, 950 1149.003 C 851.731 1147.362, 856.213 1147.398, 843.500 1148.155" stroke="none" fill="#2a93fb" fill-rule="evenodd"/>
+      <path d="M 1008 194.584 C 1006.075 194.809, 999.325 195.476, 993 196.064 C 927.768 202.134, 845.423 233.043, 786 273.762 C 691.987 338.184, 622.881 442.165, 601.082 552 C 588.496 615.414, 592.917 705.245, 611.329 760.230 C 643.220 855.469, 694.977 930.136, 763.195 979.321 C 810.333 1013.308, 839.747 1026.645, 913.697 1047.562 C 1010.275 1074.879, 1108.934 1065.290, 1221 1017.694 C 1259.787 1001.221, 1307.818 965.858, 1339.852 930.191 C 1460.375 795.998, 1488.781 609.032, 1412.581 451.500 C 1350.098 322.327, 1240.457 235.724, 1097.500 202.624 C 1072.356 196.802, 1025.206 192.566, 1008 194.584" stroke="none" fill="#0aaa8a" fill-rule="evenodd"/>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="user-progress" aria-label="Your W3Schools Profile Progress">
+      <path class="user-progress-circle1" fill="none" d="M 25.99650934151373 15.00000030461742 A 20 20 0 1 0 26 15"/>
+      <path class="user-progress-circle2" fill="none" d="M 26 15 A 20 20 0 0 0 26 15"/>
+    </svg>
+
+    <span class="user-progress-star">&#x2605;</span>
+
+    <span class="user-progress-point">+1</span>
+  </a>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div id="footer" class="footer w3-container w3-white" style="border-top:0">
+<div class="w3-col l2 m12" id="right" style="display: none;">&nbsp;</div>
+<script>
+function secondSnigel() {};
+</script>
+
+</div>
+
+<style>
+#footerwrapper {
+  background-image:url('images/lynx_landing.png'), url('images/background_in_space.gif');
+  background-repeat: no-repeat, repeat;
+  background-position: right bottom, center center /*left top*/;
+}
+#spacemyfooter {
+  padding:40px 80px 300px 80px;
+  max-width:1400px;
+  xmargin:auto;
+}
+.footerlinks_1 {
+  width:auto;
+  float:left;
+  padding:40px 30px;
+  color:#FFF4A3;
+  font-family: Source Sans Pro, sans-serif;
+}
+.footerlinks_1 .fa-logo {
+  font-size:46px!important;
+  color:#ddd;
+}
+.footerlinks_1:nth-child(1) {
+  padding:30px 10px 30px 40px;
+}
+.footerlinks_1 a{
+  text-decoration:none;
+}
+.footerlinks_1 a:hover,.footerlinks_1 a:active{
+  text-decoration:underline;
+  color:#FFF4A3;
+}
+.footerlinks_1 a:hover,.footerlinks_1 a:active{
+  text-decoration:underline;
+  color:#FFF4A3!;
+}
+.footerlinks_1 a:hover i{
+  color:#FFF4A3!important;
+}
+
+.footerlinks_2 {
+  width:auto;
+  float:left;
+  padding-left:40px;
+  padding-right:140px;  
+  color:#ddd;
+  font-family: Source Sans Pro, sans-serif;
+  font-size:12px;
+  line-height:15px;
+}
+.footerlinks_2:nth-child(4) {
+  padding-right:0;
+}
+
+.footerlinks_2 h5 {
+  margin-bottom:20px;
+}
+.footerlinks_2 a:visited,.footerlinks_2 a:link{
+  text-decoration:none;
+}
+.footerlinks_2 a:hover,.footerlinks_2 a:active{
+  color:#FFF4A3;
+}
+.footersome {
+  padding:60px 40px 10px 40px;
+  color:#ddd;
+  font-size:20px;
+}
+.footersome a {
+  margin-right:10px;
+}
+.footersome a:hover,.footersome a:active{
+  color:#FFF4A3;
+}
+.footersome .textlink {
+  font-size:15px;
+  text-decoration:none;
+}
+.footersome .textlink:active,.footersome .textlink:hover {
+  text-decoration:underline;
+}
+.footertext {
+  padding-left:40px;
+  color:#ddd;
+  font-size:12px;
+  line-height:15px;
+  
+}
+.footertext a:hover,.footertext a:active{
+  color:#FFF4A3;
+}
+
+@media screen and (max-width: 1200px) {
+  #footerwrapper {
+    background-size: 500px, auto;
+  }
+  .footerlinks_1 {
+    padding-left:2.6%;
+    padding-right:2.6%;  
+  }
+  .footerlinks_2 {
+    padding-right:8%;  
+  }
+}
+@media screen and (max-width: 992px) {
+  .footerlinks_1 {
+    width:100%;
+    margin:auto;
+    float:none;
+    text-align:center;
+    padding:10px 20px!important;
+    font-size:20px;
+  }
+  .footerlinks_1:nth-child(1) {
+    padding:40px 20px;
+  }
+  .footerlinks_2 {
+    width:100%;
+    float:none;
+    margin:auto;
+    font-size:16px;
+    line-height:20px;
+    padding:0;
+    text-align:center;
+  }
+  .footerlinks_2 h5 {
+    font-size:26px;
+    margin-top:40px;
+  }
+  .footertext {
+    text-align:center;  
+    padding:0;
+  }
+  .footer-hide-special {
+    display:none;
+  }
+  #spacemyfooter  {
+    padding-bottom:400px;
+  }
+  .footersome {
+    text-align:center;    
+  }
+}
+@media screen and (max-width: 992px) {
+  #footerwrapper {
+    background-image:url('images/lynx_landing.png'), url('images/background_in_space.gif');
+    background-repeat: no-repeat, repeat;
+    background-position: center bottom, left top;
+  }
+}
+</style>
+<div id="footerwrapper">
+
+<div id="spacemyfooter" style="margin:auto;">
+
+
+
+
+
+<!-- <div style="overflow:hidden;">
+<div class="footerlinks_1">
+  <a href class="ga-bottom">
+    <i class="fa fa-logo"></i>
+  </a>
+</div> -->
+
+<div class="w3-padding w3-margin-bottom" id="err_message" style="display:none;position:relative;background-color:#0033ff;max-width:900px;color:#FFF4A3">
+<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+
+<h2>Report Error</h2>
+
+<p>If you want to report an error, or if you want to make a suggestion, do not hesitate to send us an e-mail:</p>
+
+<br>
+
+</div>
+
+
+
+
+
+<div class="footersome">
+  <a target="_blank" href="#" title=" Facebook"><i class="fa">&#59398;</i></a>
+  <a target="_blank" href="#" title=" Discord"><i class="fa">&#59399;</i></a>
+  <a target="_blank" href="#" title="LinkedIn"><i class="fa">&#62220;</i></a>
+  <a target="_blank" href="#" title=" Instagram"><i class="fa">&#61805;</i></a>
+  <a target="_blank" href="#" title="Forum" class="textlink">FORUM</a>
+  <a target="_blank" href="#" title="About " class="textlink">ABOUT</a>  
+</div>
+
+<div class="footertext">
+
+<a href="#" class="ga-bottom">Copyright 2024</a>  All Rights Reserved.
+
+</div>
+</div>
+</div>
+
+
+
+
+
+<script src="lib/topnav/main_v%3D1.0.30.js"></script>
+<script src="lib/w3schools_footer_update%3D20230706.js"></script>
+
+<script>
+  MyLearning.loadUser('footer', function () {
+    if (!UserSession.loggedIn) {
+      addMyLearnButt();
+    }
+  });
+
+  function docReady(fn) {
+    document.addEventListener("DOMContentLoaded", fn);
+    if (document.readyState === "interactive" || document.readyState === "complete" ) {
+      fn();
+    }
+  }
+  uic_r_z();
+  uic_r_d()
+
+function addMyLearnButt() {
+  let nav = document.getElementsByClassName("nextprev");
+  if (document.body.contains(nav[1])) {
+    if ((nav[1].firstElementChild.innerHTML.indexOf("Previous") || nav[1].firstElementChild.innerHTML.indexOf("Home") !== -1) && (nav[1].firstElementChild.nextElementSibling.innerHTML.indexOf("Next") !== -1)) {
+      let myLearnButt = document.createElement("a");
+      myLearnButt.innerHTML="Log in to track progress";
+      myLearnButt.classList.add("w3-btn", "w3-hide-small", "myl-nav-butt");
+      myLearnButt.href="https://www.w3schools.com/signup/?utm_source=classic&utm_medium=" + subjectFolder + "_tutorial&utm_campaign=button_lower_navigation";
+      myLearnButt.setAttribute("title", "Sign Up and improve Your Learning Experience");
+      myLearnButt.setAttribute("target", "_blank");
+      nav[1].classList.add("w3-center");
+      nav[1].firstElementChild.insertAdjacentElement("afterend", myLearnButt);
+    }
+  }
+}
+</script>
+
+</body>
+</html>
